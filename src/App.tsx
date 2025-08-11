@@ -1,7 +1,16 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import "./styles/tailwind.css";
+
 export default function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold">Portfolio de Gonzalo 🚀</h1>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-grow">
+        <Home />
+      </main>
+      <Footer />
     </div>
   );
 }

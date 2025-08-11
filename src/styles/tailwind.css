@@ -6,7 +6,6 @@
   --font-sans: "Inter", sans-serif;
 }
 
-/* Uso automático de utilidades generadas */
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
